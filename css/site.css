@@ -5,6 +5,7 @@
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
   background-color: #801040;
+  cursor: url('https://i.ibb.co/RGjGvzgp/strawberry-cursor-2.png'), auto;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
@@ -34,5 +35,6 @@ h1 {
   margin-bottom: 10px;
   border: solid 5px #f2c5d0;
   background-color: #f2c5d0;
+  font-family:'Times New Roman', Times, serif;
 }
 
