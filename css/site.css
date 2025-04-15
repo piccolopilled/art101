@@ -3,9 +3,18 @@
 /* you can pick your own background colors, text colors, and fonts */
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
+.header{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 7px #e9a0bb;
+  border-style: solid;
+  background-color: #73410b;
+}
+
 body {
   background-color: #801040;
   cursor: url('https://i.ibb.co/0yGLcjmP/strawberry-cake-slice-pixel-art-vector-504403-650.png'), auto;
+  font-family:'Times New Roman', Times, serif;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
@@ -17,8 +26,17 @@ h1,h2,h3 {
 h1 {
   letter-spacing: 1px;
   word-spacing: 5px;
-  font-size: 200%;
-  color:#801a46;
+  font-size: 48px;
+  color: #fffae4;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+h3{
+  color:#feffe2;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 36px;
 }
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
@@ -31,10 +49,18 @@ h1 {
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-  padding: 10px;
+  padding: 30px;
   margin-bottom: 10px;
-  border: solid 5px #f2c5d0;
+  border: solid 7px #73410b;
   background-color: #f2c5d0;
-  font-family:'Times New Roman', Times, serif;
 }
 
+.favs {
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  width: 500px;
+  display: inline-block;
+  border: solid 7px #73410b;
+  background-color: #f2c5d0;
+}
