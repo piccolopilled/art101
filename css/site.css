@@ -17,15 +17,15 @@ h1 {
   letter-spacing: 1px;
   word-spacing: 5px;
   font-size: 200%;
-  color:#801a46
+  color:#801a46;
 }
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
   margin: 10px;
   padding: 30px;
-  border: solid 5px #feffe2;
   background-color: #feffe2;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c45b717-c6cf-4aa9-84f7-00178acb905b/da103d9-cf5e63df-b379-4053-8e8a-7d4aa9ff8edc.jpg/v1/fill/w_1024,h_683,q_75,strp/lolita_wallpaper_by_lolita_layla_moon_da103d9-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjgzIiwicGF0aCI6IlwvZlwvOWM0NWI3MTctYzZjZi00YWE5LTg0ZjctMDAxNzhhY2I5MDViXC9kYTEwM2Q5LWNmNWU2M2RmLWIzNzktNDA1My04ZThhLTdkNGFhOWZmOGVkYy5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.FLq_aADCIzYaNIW2gcNeP-C7wl-hk_Z-1rzh-6aBnIM");
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */

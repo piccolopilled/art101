@@ -1,22 +1,30 @@
+.header{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 7px #e9a0bb;
+    border-style: solid;
+    background-color: #73410b;
+}
+
 .minor-section {
     padding: 30px;
     margin-bottom: 30px;
-    border: solid 3px #c06184;
-    background-color: #d5cba0;
+    border: solid 7px #73410b;
+    border-style: solid;
+    background-color:#e9a0bb
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
-    color:#801040;
-}
-
-h1,h2, h3{
-    color:#c06184;
-
+    color:#801a46;
 }
 
 h1{
     font-size: 48px;
+    color: #fffae4;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 h2, h3{
-    font-size: 36px;
+    font-size: 40px;
+    color:#c06184;
 }
