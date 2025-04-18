@@ -57,12 +57,6 @@ a{
   margin-right: 150px;
 }
 
-.divider{
-  font-size: 30px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
 .kero-chan{
   float: right;
   margin-right: 30px;
@@ -70,6 +64,12 @@ a{
 
 .minor-section{
   width:50%;
+  justify-content: center;
+}
+
+.divider{
+  display: flex;
+  justify-content: center;
 }
 
 .subheader{
@@ -92,6 +92,6 @@ a{
 
 .sweets {
   margin-top: 10px;
-  margin-left: 40px;
+  margin-left: 45px;
   margin-right: 40px;
 }
