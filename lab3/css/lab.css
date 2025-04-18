@@ -10,13 +10,16 @@ h1{
 }
 
 .usagi {
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 30px;
 }
 
 h2, h3 {
   font-size: 36px;
   color: #c06184;
   margin-top: 20px;
+  margin-left: 50px;
   margin-bottom: 20px;
 }
 
@@ -29,4 +32,66 @@ p {
 a{
   font-size: 20px;
   margin-left: 10px;
+}
+
+.lab-desc{
+  display: inline-flex;
+}
+
+.description{
+  padding: 30px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-top: 60px;
+  border: solid 7px #73410b;
+  border-radius: 15px;
+  background-color: rgb(242 197 208/0.8);
+  width: 40%;
+  height: 50%;
+}
+
+.pocky-divider{
+  float: right;
+  width: 500px;
+  margin-top: 10px;
+  margin-right: 150px;
+}
+
+.divider{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.kero-chan{
+  float: right;
+  margin-right: 30px;
+}
+
+.minor-section{
+  width:50%;
+}
+
+.subheader{
+  width: 550px;
+}
+
+#output{
+  padding: 30px;
+  margin-bottom: 10px;
+  border: solid 7px #73410b;
+  border-radius: 15px;
+  background-color: rgb(242 197 208/0.8);
+}
+
+.file-structure{
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sweets {
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
 }

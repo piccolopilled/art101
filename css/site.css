@@ -14,8 +14,6 @@
 
 a {
   color: #801040;
-  margin-left: 75px;
-  margin-right: 120px;
 }
 
 a:hover{
@@ -50,7 +48,16 @@ h1 {
   background-color: #feffe2;
   background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c45b717-c6cf-4aa9-84f7-00178acb905b/da103d9-cf5e63df-b379-4053-8e8a-7d4aa9ff8edc.jpg/v1/fill/w_1024,h_683,q_75,strp/lolita_wallpaper_by_lolita_layla_moon_da103d9-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjgzIiwicGF0aCI6IlwvZlwvOWM0NWI3MTctYzZjZi00YWE5LTg0ZjctMDAxNzhhY2I5MDViXC9kYTEwM2Q5LWNmNWU2M2RmLWIzNzktNDA1My04ZThhLTdkNGFhOWZmOGVkYy5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.FLq_aADCIzYaNIW2gcNeP-C7wl-hk_Z-1rzh-6aBnIM");
 }
-  
+
+.subheader{
+  width: 50%;
+  padding: 10px;
+  background-color:#feffe2;
+  border: solid 7px #73410b;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 30px;
@@ -60,3 +67,10 @@ h1 {
   background-color: rgb(242 197 208/0.8);
 }
 
+.homepage {
+  padding: 30px;
+  margin-top: 10px;
+  border: solid 7px #73410b;
+  border-radius: 15px;
+  background-color: #feffe2;
+}
