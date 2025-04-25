@@ -1,9 +1,79 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+.subheader{
+  color: #f7639a;
+  width: 550px;
+}
+
+.top{
+  display: inline-flex;
+}
+
+.desc{
+  width: 550px;
+  height: 100px;
+  font-size: 18px;
+  color: #801040;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  border: solid 5px #73410b;
+  border-radius: 15px;
+  background-color: rgb(242 197 208/0.8);
+  text-align: center;
+}
+
+.cinnamoangels{
+  margin-left: 200px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #f7639a;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+h3{ 
+  font-size: 30px;
+  color: #f7639a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.minor-section{
+  width:50%;
+  justify-content: center;
+}
+
+.output{
+  display: inline-flex;
+}
+
+.highlander{
+  width: 50%;
+  margin-left: 100px;
+}
+
+.penis {
+  float:right;
+  max-height: 250px;
+  position: fixed;
+  right: 1px;
+  bottom: 0px;
+  z-index: 400;
+}
+
+a{
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.sweets {
+  margin-top: 10px;
+  margin-left: 45px;
+  margin-right: 40px;
+}

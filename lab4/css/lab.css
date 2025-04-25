@@ -1,3 +1,75 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.subheader{
+  color: #f7639a;
+  width: 550px;
+}
+
+h2{
+  margin-left: 50px;
+  font-size: 36px;
+}
+
+.section-1{
+  display: flex;
+}
+
+.minor-section1{
+  width: 550px;
+  height: 100px;
+  font-size: 18px;
+  color: #801040;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 5px #73410b;
+  border-radius: 15px;
+  background-color: rgb(242 197 208/0.8);
+  text-align: center;
+}
+
+.chobits{
+  margin-left: 40px;
+  width: 90%;
+}
+
+.bunnygirl{
+  float: right;
+}
+
+.minor-section2{
+  width: 550px;
+  height: 200px;
+  font-size: 20px;
+  color: #801040;
+  padding: 30px;
+  margin-bottom: 10px;
+  border: solid 5px #73410b;
+  border-radius: 15px;
+  background-color: rgb(242 197 208/0.8);
+}
+
+.results {
+  padding: 30px;
+  margin-bottom: 10px;
+  border: solid 5px #73410b;
+  border-radius: 15px;
+  background-color: rgb(242 197 208/0.8);
+  color: #801040;
+}
+
+.divider{
+  display: flex;
+  justify-content: center;
+}
+
+.sweets {
+  margin-top: 10px;
+  margin-left: 45px;
+  margin-right: 40px;
+}
+
+a{
+  font-size: 20px;
+  margin-left: 10px;
+}

@@ -1,8 +1,22 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Lab 5: Data Types and Variables
+// Author: Kyla Florentino
+// Date: 22 Apr 2025
 
 // Constants
+make = "Toyota";
+model = "Highlander";
+color = "Magnetic Gray Metallic";
+year = 2010;
+
+// calculate
+age = 2025 - year;
+
+// Output
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + " years<br>");
 
 // Functions
 
