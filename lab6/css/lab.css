@@ -1,22 +1,48 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.ponee {
+  float:right;
+  max-height: 250px;
+  position: fixed;
+  right: 1px;
+  bottom: 400px;
+}
+
+.header-divider{
+  width: 100%;
+  height: 150px;
+}
+
 .top{
   display: inline-flex; 
 }
 
 .top-right{
-  display: inline-grid;
+  display: inline-flex;
 }
 
 .manba-blingee{
-  margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 50px;
+  margin-bottom: 40px;
 }
 
-.honoka{
-  width: 275px; 
-  margin-left: 400px;
+.honoka{ 
+  margin-top: 50px;
+  margin-left: 40px;
+  width: 450px;
+  height: 450px;
+}
+
+.parfait{
+  margin-left: 115px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.hawaiian-hellokitty{
+  width: 175px;
+  margin-left: 50px;
 }
 
 .subheader{
@@ -32,11 +58,25 @@ h2 {
   margin-bottom: 20px;
 }
 
+h3{
+  font-size: 24px;
+  color: #f7639a;
+}
+
 .minor-section{
-  width: 500px;
+  width: 550px;
   justify-content: center;
   color: #801040;
   font-size: 18px;
+}
+
+.divider{
+  display: flex;
+  justify-content: center;
+}
+
+.summer{
+  width: 400px;
 }
 
 .output{
@@ -45,7 +85,7 @@ h2 {
 
 .results{
   width: 500px;
-  height: 470px;
+  height: 540px;
   justify-content: center;
   color: #801040;
   font-size: 18px;
@@ -61,21 +101,44 @@ h2 {
     margin-left: 50px;
 }
 
+.octopus{
+  margin-top: 40px;
+}
+
 .highlander{
   width: 450px;
-  margin-top: 70px;
+  margin-top: 65px;
   margin-left: 20px;
+}
+
+.hamtaro{
+  width: 200px;
+  margin-bottom: 50px;
 }
 
 .metro{
   height: 300px;
-  margin-left: 200px;
+  margin-left: 10px;
   margin-top: 20px;
 }
 
+.bottom{
+  display: inline-flex;
+}
+
+.cool-summer{
+  width: 150px;
+}
+
 .bart{
-  margin-left: 15%;
-  margin-top: 20px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.eeveelutions{
+  width: 200px;
+  margin-top: 150px;
+  margin-left: 30px;
 }
 
 a{

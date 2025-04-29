@@ -10,9 +10,9 @@ let myMainRide = {
   make: "Toyota",
   model: "Highlander",
   color: "Magnetic Gray Metallic",
-  year: "2010",
+  year: 2010,
   age: function() {
-      return 2025 - this.year;
+      return 2025 - year;
   }
 }
 
