@@ -51,6 +51,11 @@ h3{
   font-size: 30px;
 }
 
+.blinkies{
+  display: inline-block;
+  margin-left: 15px;
+}
+
 .desc{
   margin-left: 20px;
   margin-bottom: 20px;
@@ -58,13 +63,22 @@ h3{
 }
 
 .stamps{
-  margin-left: 30px;
-  margin-right: 30px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.stampsizer{
+  width: 99px;
+  height: 56px;
 }
 
 .minor-section {
   display: inline-block;
   width: 725px;
+}
+
+.topsect-imgs{
+  display: inline-flex;
 }
 
 .ponies{

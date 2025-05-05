@@ -58,6 +58,10 @@ h2{
   color: #801040;
 }
 
+.results-desc{
+  font-size: 20px;
+}
+
 .divider{
   display: flex;
   justify-content: center;
