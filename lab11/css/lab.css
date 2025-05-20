@@ -1,0 +1,11 @@
+.results{
+    height: 540px;
+    justify-content: center;
+    color: #801040;
+    font-size: 18px;
+    padding: 30px;
+    margin-bottom: 10px;
+    border: solid 5px #73410b;
+    border-radius: 15px;
+    background-color: rgb(242 197 208/0.8);
+}
