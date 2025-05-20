@@ -21,7 +21,3 @@ $("#submit").click(function(){
     // append a new div to our output div
     $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
 });
-
-$("#eevelution").click(function(){
-   $("#output").append(<input type="text" id="user-name" placeholder="what stone will you use?"></input>)
-}
