@@ -1,3 +1,28 @@
+.subheader{
+    color: #f7639a;
+    width: 550px;
+  }
+  
+h2 {
+    font-size: 36px;
+    color: #f7639a;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+  
+h3{
+    font-size: 24px;
+    color: #f7639a;
+}
+
+.minor-section{
+    width: 550px;
+    justify-content: center;
+    color: #801040;
+    font-size: 18px;
+}
+
 .results{
     height: 540px;
     justify-content: center;
@@ -8,4 +33,15 @@
     border: solid 5px #73410b;
     border-radius: 15px;
     background-color: rgb(242 197 208/0.8);
+}
+
+a{
+    font-size: 20px;
+    margin-left: 10px;
+}
+    
+.sweets{
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-right: 40px;
 }

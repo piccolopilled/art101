@@ -21,4 +21,3 @@ $("#submit").click(function(){
     // append a new div to our output div
     $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
 });
-
