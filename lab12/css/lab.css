@@ -16,6 +16,12 @@ h3 {
     color: #f7639a;
 }
 
+.minor-section{
+    justify-content: center;
+    color: #801040;
+    font-size: 18px;
+ }
+
 .results { 
     height: 540px;
     justify-content: center;
