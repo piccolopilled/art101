@@ -36,6 +36,7 @@ h3 {
 #output{
     line-height: 200%;
     text-align: center;
+    columns: 5;
 }
 
 a{
