@@ -21,7 +21,6 @@ function sortUserName() {
 }
 
 //output
-document.writeln("Nice to meet you! I sorted your name btw -w- : ",
-  sortUserName(), "</br>");
+$("#output").html("<p> Nice to meet you! I sorted your name btw -w- : " + sortUserName() + "</p>");
 
   
