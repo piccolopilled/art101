@@ -1,0 +1,84 @@
+.subheader{
+    color: #f7639a;
+    width: 550px;
+}
+  
+h2 {
+    font-size: 36px;
+    color: #f7639a;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+  
+h3{
+    font-size: 24px;
+    color: #f7639a;
+}
+
+.top{
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+
+.minor-section{
+    justify-content: center;
+    color: #801040;
+    font-size: 18px;
+    width: 550px;
+}
+
+#challenges{
+    width: 550px;
+    justify-content: center;
+    color: #801040;
+    font-size: 18px;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    border: solid 5px #73410b;
+    border-radius: 15px;
+    background-color: rgb(242 197 208/0.8);
+}
+
+.special{
+    background-image: url(https://i.pinimg.com/originals/e6/f8/0b/e6f80be8122d7019c37b39b02dd6ec2c.gif);
+    font-family: fantasy;
+    border: solid 5px #ffffff;
+}
+
+.special p {
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+}
+
+.cat-lick{
+    width: 50%;
+    margin-left: 100px;
+}
+  
+.results{
+    height: 700px;
+    justify-content: center;
+    color: #801040;
+    font-size: 18px;
+    padding: 30px;
+    margin-bottom: 10px;
+    border: solid 5px #73410b;
+    border-radius: 15px;
+    background-color: rgb(242 197 208/0.8);
+}
+  
+a{
+    font-size: 20px;
+    margin-left: 10px;
+}
+    
+.sweets {
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-right: 40px;
+}
