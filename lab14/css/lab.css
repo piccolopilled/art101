@@ -33,6 +33,15 @@ h3 {
     background-color: rgb(242 197 208/0.8);
 }
 
+.lab7js{
+    width: 50%;
+}
+
+.lab7html{
+    width: 50%;
+    float:right;
+}
+
 #output{
     line-height: 200%;
     text-align: center;

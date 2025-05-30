@@ -23,7 +23,6 @@ h3 {
  }
 
 .results { 
-    height: 540px;
     justify-content: center;
     color: #801040;
     font-size: 18px;
@@ -32,6 +31,61 @@ h3 {
     border: solid 5px #73410b;
     border-radius: 15px;
     background-color: rgb(242 197 208/0.8);
+}
+
+#thunderclan{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#firestar{
+    width: 400px;
+}
+
+#leafpool{
+    width: 350px;
+}
+
+#silverstream{
+    height: 400px;
+}
+
+#riverclan{
+    margin-bottom: 70px; 
+    margin-right: 30px;
+}
+
+#mosspelt{
+    width: 400px;
+}
+
+#finchkit{
+    width: 500px;
+}
+
+#windclan{
+    margin-bottom: 80px;
+    margin-left: 75px;
+}
+
+#tallstar{
+    width: 400px;
+}
+
+#shadowclan{
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#tawnypelt{
+    width: 300px;
+}
+
+#tigerstar{
+    width: 400px;
 }
 
 a{
