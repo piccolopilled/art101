@@ -40,6 +40,16 @@ h3 {
 .lab7html{
     width: 50%;
     float:right;
+    margin-top: 75px;
+}
+
+.lab12js{
+    width: 50%;
+}
+
+.lab12html{
+    width: 50%;
+    float:right;
 }
 
 #output{
