@@ -5,7 +5,7 @@ Date: 5 June 2025
 */
 
 const comicObj = {
-    url: "https://xkcd.com/info.0.json",
+    url: "https://xkcd.com/614/info.0.json",
     // data: {};
     type: "GET",
     dataType: "json"
@@ -18,10 +18,11 @@ $.ajax(comicObj)
       console.log(data);
       // extract the answer from data
       let title = data.title;
+      let text = data.transcript;
       let imgURL = data.img;
       let imageHTML = `<img src='${imgURL}'>`;
       // insert the output in the output div
-      $("#output").html("<h3>" + title + "</h3>");
+      $("#output").html("<h3>" + title + "</h3>" + "<p>" + text + "</p>");
       $("#output").append(imageHTML);
     })
     // callback for failure - chained to ajax
