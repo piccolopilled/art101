@@ -17,7 +17,7 @@
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+	<script type="text/javascript" src="js/lab.js" DEFER></script>
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
@@ -33,12 +33,13 @@
 				<h2>Challenges °ʚ(*´꒳`*)ɞ°</h2>
 			</div>
 			<div class="minor-section">
-				<p>I was having trouble formatting the JavaScript code for this lab, but I eventually figured it out.</p>
+				<p>I was having trouble formatting the JavaScript code for this lab, but I eventually figured it out. I figured out the main issue through WesBot, which was that the server didn't have CORS headers, blocking my website from pulling data from the JSON. A solution would be to use a proxy, but I wasn't able to figure it out.</p>
 			</div>
 			<div class="subheader">
 				<h2>Results ₍₍⚞(˶˃ ꒳ ˂˶)⚟⁾⁾</h2>
 			</div>
 			<div class="results">
+				<button id="balls">click mee</button>
                 <div id="output"></div>
 			</div>
 			<img class="sweets" src= "../img/wu1V_njVjPofIzlvSkuQ.gif"/>
