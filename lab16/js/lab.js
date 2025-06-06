@@ -27,7 +27,7 @@ $("#balls").click(function() {
       // insert the output in the output div
       $("#output").html(`<h3>${title}</h3>`);
       $("#output").append(`<img src = '${imgURL}' />`);
-      $("#output").append(`<p class='text'>${text}</p>`);
+      $("#output").append(`<p>${text}</p>`);
     })
     // callback for failure - chained to ajax
     .fail(function(xhr, status, errorThrown) {
