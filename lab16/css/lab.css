@@ -33,12 +33,6 @@ h3 {
     background-color: rgb(242 197 208/0.8);
 }
 
-#output{
-    line-height: 200%;
-    text-align: center;
-    columns: 5;
-}
-
 a{
   font-size: 20px;
   margin-left: 10px;

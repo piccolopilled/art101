@@ -6,12 +6,11 @@ Date: 5 June 2025
 
 const comicObj = {
     url: "https://corsproxy.io/?https://xkcd.com/info.0.json",
-    // data: {};
+    data: {},
     type: "GET",
     dataType: "json"
-    
-}
-  
+};
+
 // when user clicks button
 $("#balls").click(function() {
     console.log("click");
@@ -24,10 +23,11 @@ $("#balls").click(function() {
       // extract the answer from data
       let title = data.title;
       let imgURL = data.img;
-      let imageHTML = `<img src='${imgURL}'>`;
+      let text = data.alt;
       // insert the output in the output div
-      $("#output").html("<h3>" + title + "</h3>");
-      $("#output").append(imageHTML);
+      $("#output").html(`<h3>${title}</h3>`);
+      $("#output").append(`<img src = '${imgURL}' />`);
+      $("#output").append(`<p class='text'>${text}</p>`);
     })
     // callback for failure - chained to ajax
     .fail(function(xhr, status, errorThrown) {

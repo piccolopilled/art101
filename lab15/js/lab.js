@@ -6,10 +6,9 @@ Date: 2 Jun 2025
 
 const ajaxObj = {
     url: "https://yesno.wtf/api",
-    // data: {};
+    data: {},
     type: "GET",
     dataType: "json"
-    
 }
   
 // when user clicks button
